@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking - FaneeSkin Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>FaneeSkin Studio</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="fabout.html">About</a>
+    <a href="fgallery.html">Gallery</a>
+    <a href="fbooking.html">Booking</a>
+  </nav>
+</header>
+
+<section class="content">
+  <h2>Online Booking</h2>
+  <form onsubmit="bookingBerhasil(event)">
+    <input type="text" placeholder="Nama" required>
+    <input type="email" placeholder="Email" required>
+    <select>
+      <option>Facial</option>
+      <option>Acne Care</option>
+      <option>Brightening</option>
+    </select>
+    <input type="date">
+    <textarea placeholder="Catatan"></textarea>
+    <button type="submit">Booking Sekarang</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Artika Murtifani | 251011700309 | 01SIFP005</p>
+  <p id="waktu"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
